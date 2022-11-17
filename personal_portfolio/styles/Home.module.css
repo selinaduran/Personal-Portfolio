@@ -108,6 +108,12 @@
   margin-left: 0.5rem;
 }
 
+.profilepic {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

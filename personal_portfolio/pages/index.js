@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <h1 className={styles.title}>Selina Duran</h1>
-          <img src="/img/ProfilePic.jpeg" alt="profile pic"/>
+          <img className={styles.profilepic} src="/img/ProfilePic.jpeg" alt="profile pic"/>
           <h2>Hi there! I'm Selina. Welcome to my tech corner!</h2>
           <p>personal site links (github/linkedin) would go here</p>
         </div>
