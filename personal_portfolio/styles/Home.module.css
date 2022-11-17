@@ -112,6 +112,13 @@
   height: 230px;
   width: 230px;
   border-radius: 50%;
+  border: 2px solid black;
+}
+
+.aboutme {
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
 }
 
 @media (max-width: 600px) {
