@@ -13,7 +13,6 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <h1 className={styles.title}>Selina Duran</h1>
-          <p>profile pic would go here</p>
           <h2>Hi there! I'm Selina. Welcome to my tech corner!</h2>
           <p>personal site links (github/linkedin) would go here</p>
         </div>
