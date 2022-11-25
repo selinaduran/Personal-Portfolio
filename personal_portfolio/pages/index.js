@@ -11,13 +11,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
+        <div className={styles.header}>
           <h1 className={styles.title}>Selina Duran</h1>
           <img className={styles.profilepic} src="/img/ProfilePic.jpeg" alt="profile pic"/>
           <h2>Hi there! I'm Selina. Welcome to my tech corner!</h2>
           <p>personal site links (github/linkedin) would go here</p>
         </div>
-        <div>
+        <div className={styles.links}>
           <ul>
             <li>About Me</li>
             <li>Portfolio</li>
@@ -25,7 +25,7 @@ export default function Home() {
             <li>Contact</li>
           </ul>
         </div>
-        <div className={styles.grid}>
+        <div className={styles.about}>
           <h2>Selina Duran</h2>
           <h2>Full-Stack Software Engineer</h2>
           <img className={styles.aboutme} src="/img/AboutMe.jpeg" alt="about me"/>
@@ -33,15 +33,15 @@ export default function Home() {
           <button>View Portfolio</button>
           <button>View Resume</button>
         </div>
-        <div className={styles.grid}>
+        <div className={styles.proficient}>
           <h2>Tech Stacks I Am Proficient In:</h2>
           <p>tech stack icons would go here</p>
         </div>
-        <div className={styles.grid}>
+        <div className={styles.experience}>
           <h2>Tech Stacks I Have Experience With:</h2>
           <p>tech stack icons would go here</p>
         </div>
-        <div className={styles.grid}>
+        <div className={styles.featured}>
           <h2>Featured Projects</h2>
           <p>featured projects would go here</p>
         </div>
