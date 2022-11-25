@@ -1,3 +1,8 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
 .container {
   padding: 0 2rem;
 }
