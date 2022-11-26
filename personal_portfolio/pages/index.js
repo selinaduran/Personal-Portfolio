@@ -15,7 +15,7 @@ export default function Home() {
           <div className={styles.header}>
             <h1 className={styles.title}>Selina Duran</h1>
             <img className={styles.profilepic} src="/img/ProfilePic.jpeg" alt="profile pic" />
-            <h2>Hi there! I'm Selina. Welcome to my tech corner!</h2>
+            <h2>Hi there! I'm Selina. Welcome to my personal website!</h2>
             <p>personal site links (github/linkedin) would go here</p>
           </div>
           <div className={styles.links}>
@@ -29,12 +29,18 @@ export default function Home() {
         </div>
         <div className={styles.container2}>
           <div className={styles.about}>
-            <h2>Selina Duran</h2>
-            <h2>Full-Stack Software Engineer</h2>
-            <img className={styles.aboutme} src="/img/AboutMe.jpeg" alt="about me" />
-            <p>Hello! I am a former educator and school psychologist who eventually switched over to tech! I am currently a full-stack software engineer who enjoys learning new programming languages, creating optimal user interfaces within frontend applications, and handling databases to produce well-balanced applications. I thrive in environments where there are opportunities for team collaboration, problem-solving and professional growth. I would love to join a team to share my experiences with in order to help achieve their company goals. Feel free to reach out if you think I would be a good fit for your team</p>
-            <button>View Portfolio</button>
-            <button>View Resume</button>
+            <h2 className={styles.aboutName}>Selina Duran</h2>
+            <h2 className={styles.aboutTitle}>Full-Stack Software Engineer</h2>
+            <div className={styles.aboutContainer}>
+              <div className={styles.aboutSection1}>
+                <img className={styles.aboutme} src="/img/AboutMe.jpeg" alt="about me" />
+              </div>
+              <div className={styles.aboutSection2}>
+                <p className={styles.aboutInfo}>Hello! I am a former educator and school psychologist who eventually switched over to tech! I am currently a full-stack software engineer who enjoys learning new programming languages, creating optimal user interfaces within frontend applications, and handling databases to produce well-balanced applications. I thrive in environments where there are opportunities for team collaboration, problem-solving and professional growth. I would love to join a team to share my experiences with in order to help achieve their company goals. Feel free to reach out if you think I would be a good fit for your team</p>
+                <button>View Portfolio</button>
+                <button>View Resume</button>
+              </div>
+            </div>
           </div>
           <div className={styles.proficient}>
             <h2>Tech Stacks I Am Proficient In:</h2>

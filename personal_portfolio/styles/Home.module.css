@@ -7,6 +7,34 @@
   padding: 0 2rem;
 }
 
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.container2 {
+  width: 75%;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.aboutSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  width: 40%;
+}
+
+.aboutSection2 {
+  margin: 25px;
+  width: 60%;
+}
+
 .header {
   border: 2px solid black;
 }
@@ -26,10 +54,24 @@
   border: 2px solid black;
 }
 
+.aboutName {
+  margin: 25px;
+  font-size: xx-large;
+}
+
+.aboutTitle {
+  margin: 25px;
+  color: rgb(83, 80, 80);
+}
+
 .aboutme {
   height: 350px;
   width: 350px;
   border: 2px solid black;
+}
+
+.aboutInfo {
+  color: rgb(83, 80, 80);
 }
 
 .proficient {
