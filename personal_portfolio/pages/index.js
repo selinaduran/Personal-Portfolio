@@ -29,16 +29,16 @@ export default function Home() {
         </div>
         <div className={styles.container2}>
           <div className={styles.about}>
-            <h2 className={styles.aboutName}>Selina Duran</h2>
-            <h2 className={styles.aboutTitle}>Full-Stack Software Engineer</h2>
             <div className={styles.aboutContainer}>
               <div className={styles.aboutSection1}>
                 <img className={styles.aboutme} src="/img/AboutMe.jpeg" alt="about me" />
               </div>
               <div className={styles.aboutSection2}>
+                <h2 className={styles.aboutName}>Selina Duran</h2>
+                <h2 className={styles.aboutTitle}>Full-Stack Software Engineer</h2>
                 <p className={styles.aboutInfo}>Hello! I am a former educator and school psychologist who eventually switched over to tech! I am currently a full-stack software engineer who enjoys learning new programming languages, creating optimal user interfaces within frontend applications, and handling databases to produce well-balanced applications. I thrive in environments where there are opportunities for team collaboration, problem-solving and professional growth. I would love to join a team to share my experiences with in order to help achieve their company goals. Feel free to reach out if you think I would be a good fit for your team</p>
-                <button>View Portfolio</button>
-                <button>View Resume</button>
+                <button className={styles.aboutButton}>View Portfolio</button>
+                <button className={styles.aboutButton}>View Resume</button>
               </div>
             </div>
           </div>
