@@ -19,12 +19,10 @@ export default function Home() {
             <p className={styles.sitelinks}>personal site links (github/linkedin) would go here</p>
           </div>
           <div className={styles.links}>
-            <ul>
-              <li>About Me</li>
-              <li>Portfolio</li>
-              <li>Resume</li>
-              <li>Contact</li>
-            </ul>
+              <a className={styles.link}>About Me</a>
+              <a className={styles.link}>Portfolio</a>
+              <a className={styles.link}>Resume</a>
+              <a className={styles.link}>Contact</a>
           </div>
         </div>
         <div className={styles.container2}>
@@ -43,7 +41,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.proficient}>
-            <h2>Tech Stacks I Am Proficient In:</h2>
+            <h2 className={styles.techstacks}>Tech Stacks I Am Proficient In:</h2>
             <p>tech stack icons would go here</p>
           </div>
           <div className={styles.experience}>
