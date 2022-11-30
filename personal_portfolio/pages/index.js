@@ -15,8 +15,8 @@ export default function Home() {
           <div className={styles.header}>
             <h1 className={styles.title}>Selina Duran</h1>
             <img className={styles.profilepic} src="/img/ProfilePic.jpeg" alt="profile pic" />
-            <h2>Hi there! I'm Selina. Welcome to my personal website!</h2>
-            <p>personal site links (github/linkedin) would go here</p>
+            <h2 className={styles.welcome}>Hi there! I'm Selina. Welcome to my personal website!</h2>
+            <p className={styles.sitelinks}>personal site links (github/linkedin) would go here</p>
           </div>
           <div className={styles.links}>
             <ul>
