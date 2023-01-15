@@ -21,10 +21,10 @@ const Navigation = () => {
             />{" "}
             Logo Goes Here
           </Navbar.Brand>
-          <Nav.Link>About Me</Nav.Link>
-          <Nav.Link>Portfolio</Nav.Link>
-          <Nav.Link>Resume</Nav.Link>
-          <Nav.Link>Contact</Nav.Link>
+          <Nav.Link className={styles.navlink}>About Me</Nav.Link>
+          <Nav.Link className={styles.navlink}>Portfolio</Nav.Link>
+          <Nav.Link className={styles.navlink}>Resume</Nav.Link>
+          <Nav.Link className={styles.navlink}>Contact</Nav.Link>
         </Container>
       </Navbar>
     </>

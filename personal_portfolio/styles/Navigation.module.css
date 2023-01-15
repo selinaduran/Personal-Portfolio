@@ -1,3 +1,12 @@
 .coloredNav {
   background-color: #726da8 !important;
 }
+
+.navlink {
+  font-weight: bold !important;
+  color: #bee7e8 !important;
+}
+
+.navlink:hover {
+  color: #7bf1a8 !important;
+}
