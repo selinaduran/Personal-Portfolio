@@ -77,12 +77,80 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.experience}>
-        <h2>Tech Stacks I Have Experience With:</h2>
-        <p>tech stack icons would go here</p>
+        <h2 className={styles.techstacks}>
+          Technologies I Have Experience With:
+        </h2>
+        <div>
+          <img className={styles.techicon} src="/img/js.png" alt="js icon" />
+          <img
+            className={styles.techicon}
+            src="/img/reactjs.png"
+            alt="react icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/html5.png"
+            alt="html icon"
+          />
+          <img className={styles.techicon} src="/img/css.png" alt="css icon" />
+          <img
+            className={styles.techicon}
+            src="/img/nodejs.png"
+            alt="nodejs icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/nextjs.png"
+            alt="nextjs icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/postgresql.png"
+            alt="postgres icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/mysql.png"
+            alt="mysql icon"
+          />
+        </div>
       </div>
       <div className={styles.proficient}>
-        <h2 className={styles.techstacks}>Tech Stacks I Am Proficient In:</h2>
-        <p>tech stack icons would go here</p>
+        <h2 className={styles.techstacks}>Technologies I Am Proficient In:</h2>
+        <div>
+          <img
+            className={styles.techicon}
+            src="/img/jquery.png"
+            alt="jquery icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/mongodb.png"
+            alt="mongodb icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/graphql.png"
+            alt="graphql icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/jest.png"
+            alt="jest icon"
+          />
+          <img
+            className={styles.techicon}
+            src="/img/mochajs.png"
+            alt="mochajs icon"
+          />
+          <img className={styles.techicon} src="/img/aws.png" alt="aws icon" />
+          <img className={styles.techicon} src="/img/git.png" alt="git icon" />
+          <img
+            className={styles.techicon}
+            src="/img/figma.png"
+            alt="figma icon"
+          />
+        </div>
       </div>
       <div className={styles.featured}>
         <h2>Featured Applications</h2>

@@ -95,11 +95,25 @@
   color: #7bf1a8;
 }
 
-.proficient {
+.experience {
   border: 2px solid black;
 }
 
-.experience {
+.techstacks {
+  color: #7bf1a8;
+}
+
+.techicon {
+  width: 180px;
+  height: 180px;
+  transition: transform 0.2s;
+}
+
+.techicon:hover {
+  transform: scale(1.1);
+}
+
+.proficient {
   border: 2px solid black;
 }
 
