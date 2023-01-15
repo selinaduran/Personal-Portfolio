@@ -17,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.header}>
-        <h1 className={styles.title}>Selina Duran</h1>
-        <h2 className={styles.title}>Full-Stack Software Engineer</h2>
+        <h1 className={styles.titleName}>Selina Duran</h1>
+        <h2 className={styles.titleRole}>Full-Stack Software Engineer</h2>
         <img
           className={styles.profilepic}
           src="/img/ProfilePic.jpeg"
@@ -76,11 +76,9 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      <div className={styles.experience}>
-        <h2 className={styles.techstacks}>
-          Technologies I Have Experience With:
-        </h2>
-        <div>
+      <div className={styles.proficient}>
+        <h2 className={styles.techstacks}>Technologies I Am Proficient In:</h2>
+        <div className={styles.techContainer}>
           <img className={styles.techicon} src="/img/js.png" alt="js icon" />
           <img
             className={styles.techicon}
@@ -115,9 +113,11 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className={styles.proficient}>
-        <h2 className={styles.techstacks}>Technologies I Am Proficient In:</h2>
-        <div>
+      <div className={styles.experience}>
+        <h2 className={styles.techstacks}>
+          Technologies I Have Experience With:
+        </h2>
+        <div className={styles.techContainer}>
           <img
             className={styles.techicon}
             src="/img/jquery.png"

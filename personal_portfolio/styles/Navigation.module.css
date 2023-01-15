@@ -1,9 +1,11 @@
 .coloredNav {
   background-color: #726da8 !important;
+  height: 70px;
 }
 
 .navlink {
   font-weight: bold !important;
+  font-size: large !important;
   color: #bee7e8 !important;
 }
 

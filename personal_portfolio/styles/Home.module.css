@@ -15,7 +15,17 @@
   margin-bottom: 25px;
 }
 
-.title {
+.titleName {
+  color: #bee7e8;
+  border-bottom: 4px solid #ffd6e0;
+}
+
+.titleName:hover {
+  color: #ffd6e0;
+  border-bottom: 4px solid #bee7e8;
+}
+
+.titleRole {
   color: #7bf1a8;
 }
 
@@ -65,6 +75,8 @@
 
 .aboutName {
   margin: 25px;
+  width: fit-content;
+  border-bottom: 3px solid #ffd6e0;
   color: #7bf1a8;
   font-size: xx-large;
 }
@@ -96,11 +108,22 @@
 }
 
 .experience {
-  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px 25px 25px;
 }
 
 .techstacks {
   color: #7bf1a8;
+  margin: 25px;
+  width: fit-content;
+  border-bottom: 3px solid #ffd6e0;
+}
+
+.techContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .techicon {
@@ -114,7 +137,9 @@
 }
 
 .proficient {
-  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px 25px 25px;
 }
 
 .featured {
