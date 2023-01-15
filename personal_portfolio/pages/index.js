@@ -2,6 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 export default function Home() {
   return (
@@ -12,6 +15,7 @@ export default function Home() {
       </Head>
       <div className={styles.header}>
         <h1 className={styles.title}>Selina Duran</h1>
+        <h2 className={styles.title}>Full-Stack Software Engineer</h2>
         <img
           className={styles.profilepic}
           src="/img/ProfilePic.jpeg"
@@ -20,9 +24,17 @@ export default function Home() {
         <h2 className={styles.welcome}>
           Hi there! I'm Selina. Welcome to my personal website!
         </h2>
-        <p className={styles.sitelinks}>
-          personal site links (github/linkedin) would go here
-        </p>
+        <div className={styles.sitelinks}>
+          <a href="https://github.com/selinaduran" target="_blank">
+            <GitHubIcon className={styles.sitelink} fontSize="large" />
+          </a>
+          <a href="https://www.linkedin.com/in/selina-duran/" target="_blank">
+            <LinkedInIcon className={styles.sitelink} fontSize="large" />
+          </a>
+          <a href="https://www.facebook.com/selina.duran.92/" target="_blank">
+            <FacebookIcon className={styles.sitelink} fontSize="large" />
+          </a>
+        </div>
       </div>
       <div className={styles.about}>
         <div className={styles.aboutContainer}>
@@ -35,7 +47,6 @@ export default function Home() {
           </div>
           <div className={styles.aboutSection2}>
             <h2 className={styles.aboutName}>About Me</h2>
-            <h2 className={styles.aboutTitle}>Full-Stack Software Engineer</h2>
             <p className={styles.aboutInfo}>
               Hello! I am a former educator and school psychologist who
               eventually switched over to tech! I am currently a full-stack
@@ -62,7 +73,7 @@ export default function Home() {
         <p>tech stack icons would go here</p>
       </div>
       <div className={styles.featured}>
-        <h2>Featured Projects</h2>
+        <h2>Featured Applications</h2>
         <p>featured projects would go here</p>
       </div>
     </div>

@@ -15,19 +15,34 @@
   height: 530px;
 }
 
+.title {
+  color: #a0d2db;
+}
+
 .profilepic {
   height: 230px;
   width: 230px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid #726da8;
 }
 
 .welcome {
   margin: 25px;
+  color: #a0d2db;
 }
 
 .sitelinks {
   margin: 0px 25px 25px 25px;
+}
+
+.sitelink,
+.sitelink:visited {
+  color: #a0d2db;
+}
+
+.sitelink:hover {
+  color: #7d8cc4;
+  cursor: pointer;
 }
 
 .about {
@@ -56,11 +71,6 @@
 .aboutName {
   margin: 25px;
   font-size: xx-large;
-}
-
-.aboutTitle {
-  margin: 25px;
-  color: #a0d2db;
 }
 
 .aboutme {
