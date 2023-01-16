@@ -25,7 +25,7 @@ export default function Home() {
           alt="profile pic"
         />
         <h2 className={styles.welcome}>
-          Hi there! I'm Selina. Welcome to my personal website!
+          Hi there! 🙋🏻‍♀️ I'm Selina. Welcome to my personal website!
         </h2>
         <div className={styles.sitelinks}>
           <a href="https://github.com/selinaduran" target="_blank">
@@ -48,7 +48,9 @@ export default function Home() {
           />
         </div>
         <div className={styles.aboutSection2}>
-          <h2 className={styles.aboutName}>About Me</h2>
+          <h2 className={styles.aboutName}>
+            <u className={styles.textEffect}>About Me</u> 👩🏻‍💻
+          </h2>
           <p className={styles.aboutInfo}>
             Hello! I am a former educator and school psychologist who eventually
             switched over to tech! I am currently a full-stack software engineer
@@ -77,7 +79,10 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.proficient}>
-        <h2 className={styles.techstacks}>Technologies I Am Proficient In:</h2>
+        <h2 className={styles.techstacks}>
+          <u className={styles.textEffect}>Technologies I Am Proficient In</u>{" "}
+          👌🏻
+        </h2>
         <div className={styles.techContainer}>
           <img className={styles.techicon} src="/img/js.png" alt="js icon" />
           <img
@@ -115,7 +120,10 @@ export default function Home() {
       </div>
       <div className={styles.experience}>
         <h2 className={styles.techstacks}>
-          Technologies I Have Experience With:
+          <u className={styles.textEffect}>
+            Technologies I Have Experience With
+          </u>{" "}
+          👍🏻
         </h2>
         <div className={styles.techContainer}>
           <img
@@ -153,8 +161,19 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.featured}>
-        <h2>Featured Applications</h2>
-        <p>featured projects would go here</p>
+        <h2 className={styles.featuredApps}>
+          <u className={styles.textEffect}>Featured Applications</u> 🌟
+        </h2>
+        <div className={styles.appContainer}>
+          <div className={styles.showCaseApp}>
+            <h3>Animal Crossing Memory Match</h3>
+            <p>GIF Video would go here</p>
+          </div>
+          <div className={styles.infoApp}>
+            <h3>Github Link would go here</h3>
+            <p>Information about featured project would go here</p>
+          </div>
+        </div>
       </div>
     </div>
   );
