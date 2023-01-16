@@ -166,12 +166,33 @@ export default function Home() {
         </h2>
         <div className={styles.appContainer}>
           <div className={styles.showCaseApp}>
-            <h3>Animal Crossing Memory Match</h3>
-            <p>GIF Video would go here</p>
+            <img src="https://github.com/selinaduran/MVP-Project/raw/main/demo/ProfileGif.gif" />
           </div>
           <div className={styles.infoApp}>
-            <h3>Github Link would go here</h3>
-            <p>Information about featured project would go here</p>
+            <div className={styles.titleContainer}>
+              <h3 className={styles.appTitle}>Animal Crossing Memory Match!</h3>
+              <a
+                href="https://github.com/selinaduran/MVP-Project"
+                target="_blank"
+              >
+                <GitHubIcon className={styles.githubLink} fontSize="large" />
+              </a>
+            </div>
+            <p className={styles.appInformation}>
+              Animal Crossing Memory Match! allows users to play with a shuffled
+              memory-match board that consists of randomly selected Animal
+              Crossing villager cards (characters are specifically from
+              Nintendo's "New Horizons" video game). While users select cards to
+              match, the application includes a counter to keep track of
+              players' number of attempts. Extended features to the game were
+              also recently added to allow users to see character profiles for
+              each matched villager in order to learn more about their personal
+              traits and characteristics. React was utilized for creating
+              frontend features while PostgreSQL was implemented for
+              managing/storing scores users can submit upon completing a game
+              round. Villager cards and profile information were obtained and
+              sourced from an external API (http://acnhapi.com/).
+            </p>
           </div>
         </div>
       </div>

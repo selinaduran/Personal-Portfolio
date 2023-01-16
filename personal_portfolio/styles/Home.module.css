@@ -149,7 +149,7 @@
 }
 
 .featured {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   margin: 0 25px 25px 25px;
@@ -167,13 +167,48 @@
 }
 
 .showCaseApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0px 25px 25px 25px;
   width: 50%;
 }
 
 .infoApp {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.appTitle {
+  color: #ffd6e0;
+  margin: 0px 0px 15px 0px;
+  line-height: 28px;
+}
+
+.infoApp {
   margin: 0px 25px 25px 25px;
   width: 50%;
+}
+
+.githubLink {
+  color: #ffd6e0;
+  font-size: 28px;
+}
+
+.githubLink:hover {
+  color: #7bf1a8;
+  cursor: pointer;
+}
+
+.appInformation {
+  font-size: larger;
+  color: #bee7e8;
 }
 
 @media (max-width: 600px) {
