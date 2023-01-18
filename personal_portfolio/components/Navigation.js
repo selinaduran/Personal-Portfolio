@@ -10,22 +10,19 @@ const Navigation = () => {
   return (
     <>
       <Navbar sticky="top" className={styles.coloredNav}>
-        <Container>
+        <Container className={styles.navContainer}>
           <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src="/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{" "}
-            Logo Goes Here
+            <img alt="" src="/img/SD.png" width="70" height="70" />
           </Navbar.Brand>
-          <Nav.Link className={styles.navlink}>About Me</Nav.Link>
+        </Container>
+        <div className={styles.linksContainer}>
+          <Nav.Link href="/" className={styles.navlink}>
+            Home
+          </Nav.Link>
           <Nav.Link className={styles.navlink}>Portfolio</Nav.Link>
           <Nav.Link className={styles.navlink}>Resume</Nav.Link>
           <Nav.Link className={styles.navlink}>Contact</Nav.Link>
-        </Container>
+        </div>
       </Navbar>
     </>
   );
