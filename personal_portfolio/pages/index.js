@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Selina Duran - Portfolio</title>
+        <title>Selina Duran - Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.header}>
