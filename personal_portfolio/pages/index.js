@@ -72,6 +72,8 @@ export default function Home() {
             className={styles.aboutButton}
             variant="contained"
             startIcon={<DescriptionIcon />}
+            href="https://drive.google.com/file/d/1DzduEO64GIniYePo-nc0ntHqmrKEO4K9/view?usp=sharing"
+            target="_blank"
           >
             View Resume
           </Button>

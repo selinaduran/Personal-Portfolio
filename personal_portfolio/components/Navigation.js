@@ -20,7 +20,13 @@ const Navigation = () => {
             Home
           </Nav.Link>
           <Nav.Link className={styles.navlink}>Portfolio</Nav.Link>
-          <Nav.Link className={styles.navlink}>Resume</Nav.Link>
+          <Nav.Link
+            href="https://drive.google.com/file/d/1DzduEO64GIniYePo-nc0ntHqmrKEO4K9/view?usp=sharing"
+            target="_blank"
+            className={styles.navlink}
+          >
+            Resume
+          </Nav.Link>
           <Nav.Link href="/contact" className={styles.navlink}>
             Contact
           </Nav.Link>
