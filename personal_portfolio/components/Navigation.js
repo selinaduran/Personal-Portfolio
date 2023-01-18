@@ -21,7 +21,9 @@ const Navigation = () => {
           </Nav.Link>
           <Nav.Link className={styles.navlink}>Portfolio</Nav.Link>
           <Nav.Link className={styles.navlink}>Resume</Nav.Link>
-          <Nav.Link className={styles.navlink}>Contact</Nav.Link>
+          <Nav.Link href="/contact" className={styles.navlink}>
+            Contact
+          </Nav.Link>
         </div>
       </Navbar>
     </>

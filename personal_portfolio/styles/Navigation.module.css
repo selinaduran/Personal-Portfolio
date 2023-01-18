@@ -15,7 +15,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 96% !important;
-  margin: 21.5px;
+  margin: 21.5px !important;
 }
 
 .navlink {
