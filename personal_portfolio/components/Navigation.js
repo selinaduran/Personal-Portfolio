@@ -19,7 +19,9 @@ const Navigation = () => {
           <Nav.Link href="/" className={styles.navlink}>
             Home
           </Nav.Link>
-          <Nav.Link className={styles.navlink}>Portfolio</Nav.Link>
+          <Nav.Link href="/portfolio" className={styles.navlink}>
+            Portfolio
+          </Nav.Link>
           <Nav.Link
             href="https://drive.google.com/file/d/1DzduEO64GIniYePo-nc0ntHqmrKEO4K9/view?usp=sharing"
             target="_blank"

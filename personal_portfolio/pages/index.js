@@ -65,6 +65,7 @@ export default function Home() {
             className={styles.aboutButton}
             variant="contained"
             startIcon={<ArrowCircleRightIcon />}
+            href="/portfolio"
           >
             View Portfolio
           </Button>
