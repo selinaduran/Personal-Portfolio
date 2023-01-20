@@ -5,9 +5,11 @@ const Portfolio = () => {
   return (
     <div className={styles.portfolioContainer}>
       <div className={styles.projectContainer}>
-        <h2>Duguid Construction</h2>
-        <div>Application Snippet goes here</div>
-        <p>
+        <h2 className={styles.appTitle}>Duguid Construction</h2>
+        <div>
+          <img src="/img/DuguidDemo.gif" />
+        </div>
+        <p className={styles.appInfo}>
           Duguid Construction is a full-stack application that I created
           alongside five other software engineers. This particular web
           application allows various types of users (clients or employees) to
@@ -20,9 +22,11 @@ const Portfolio = () => {
         </p>
       </div>
       <div className={styles.projectContainer}>
-        <h2>Animal Crossing Memory Match!</h2>
-        <div>Application Snippet goes here</div>
-        <p>
+        <h2 className={styles.appTitle}>Animal Crossing Memory Match!</h2>
+        <div>
+          <img src="/img/AnimalCrossingDemo1.gif" />
+        </div>
+        <p className={styles.appInfo}>
           This is a MVP (Minimum Viable Product) project I completed as a
           student at Hack Reactor. We had less than 24 hours to make a
           full-stack application of our choosing. This particular application
@@ -41,9 +45,9 @@ const Portfolio = () => {
         </p>
       </div>
       <div className={styles.projectContainer}>
-        <h2>Front End Capstone (Royale)</h2>
+        <h2 className={styles.appTitle}>Front End Capstone (Royale)</h2>
         <div>Application Snippet goes here</div>
-        <p>
+        <p className={styles.appInfo}>
           Royale is an eCommerce application where my team and I focused on
           increasing user-interactivity with updated website and accessibility
           features. I was in charge of architecting the React front-end service
@@ -57,9 +61,9 @@ const Portfolio = () => {
         </p>
       </div>
       <div className={styles.projectContainer}>
-        <h2>System Design Capstone</h2>
+        <h2 className={styles.appTitle}>System Design Capstone</h2>
         <div>Application Snippet goes here</div>
-        <p>
+        <p className={styles.appInfo}>
           System Design Capstone is an application where the backend was
           entirely rebuilt with a new database and server. I was in charge of
           adding backend extensions for an eCommerce website's Q&A widget and

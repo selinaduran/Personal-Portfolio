@@ -168,7 +168,7 @@ export default function Home() {
         </h2>
         <div className={styles.appContainer}>
           <div className={styles.showCaseApp}>
-            <img src="https://github.com/selinaduran/MVP-Project/raw/main/demo/ProfileGif.gif" />
+            <img src="/img/AnimalCrossingDemo2.gif" />
           </div>
           <div className={styles.infoApp}>
             <div className={styles.titleContainer}>
