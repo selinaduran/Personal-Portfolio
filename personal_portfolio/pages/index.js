@@ -7,6 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import DescriptionIcon from "@mui/icons-material/Description";
+import Tooltip from "@mui/material/Tooltip";
 
 export default function Home() {
   return (
@@ -85,8 +86,10 @@ export default function Home() {
           <u className={styles.textEffect}>Technologies I Am Proficient In</u>{" "}
           👌🏻
         </h2>
-        <div className={styles.techContainer}>
-          <img className={styles.techicon} src="/img/js.png" alt="js icon" />
+        {/* <div className={styles.techContainer}>
+          <Tooltip title="JavaScript">
+            <img className={styles.techicon} src="/img/js.png" alt="js icon" />
+          </Tooltip>
           <img
             className={styles.techicon}
             src="/img/reactjs.png"
@@ -118,7 +121,7 @@ export default function Home() {
             src="/img/mysql.png"
             alt="mysql icon"
           />
-        </div>
+        </div> */}
       </div>
       <div className={styles.experience}>
         <h2 className={styles.techstacks}>
@@ -127,7 +130,7 @@ export default function Home() {
           </u>{" "}
           👍🏻
         </h2>
-        <div className={styles.techContainer}>
+        {/* <div className={styles.techContainer}>
           <img
             className={styles.techicon}
             src="/img/jquery.png"
@@ -160,7 +163,7 @@ export default function Home() {
             src="/img/figma.png"
             alt="figma icon"
           />
-        </div>
+        </div> */}
       </div>
       <div className={styles.featured}>
         <h2 className={styles.featuredApps}>
