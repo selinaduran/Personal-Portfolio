@@ -86,42 +86,64 @@ export default function Home() {
           <u className={styles.textEffect}>Technologies I Am Proficient In</u>{" "}
           👌🏻
         </h2>
-        {/* <div className={styles.techContainer}>
+        <div className={styles.techContainer}>
           <Tooltip title="JavaScript">
-            <img className={styles.techicon} src="/img/js.png" alt="js icon" />
+            <img
+              className={styles.techicon}
+              src="/img/JavaScript.png"
+              alt="js icon"
+            />
           </Tooltip>
-          <img
-            className={styles.techicon}
-            src="/img/reactjs.png"
-            alt="react icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/html5.png"
-            alt="html icon"
-          />
-          <img className={styles.techicon} src="/img/css.png" alt="css icon" />
-          <img
-            className={styles.techicon}
-            src="/img/nodejs.png"
-            alt="nodejs icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/nextjs.png"
-            alt="nextjs icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/postgresql.png"
-            alt="postgres icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/mysql.png"
-            alt="mysql icon"
-          />
-        </div> */}
+          <Tooltip title="React.js">
+            <img
+              className={styles.techicon}
+              src="/img/Reactjs.png"
+              alt="react icon"
+            />
+          </Tooltip>
+          <Tooltip title="HTML5">
+            <img
+              className={styles.techicon}
+              src="/img/Html5.png"
+              alt="html icon"
+            />
+          </Tooltip>
+          <Tooltip title="CSS3">
+            <img
+              className={styles.techicon}
+              src="/img/Css.png"
+              alt="css icon"
+            />
+          </Tooltip>
+          <Tooltip title="Node.js">
+            <img
+              className={styles.techicon}
+              src="/img/Nodejs.png"
+              alt="nodejs icon"
+            />
+          </Tooltip>
+          <Tooltip title="Next.js">
+            <img
+              className={styles.techicon}
+              src="/img/Nextjs.png"
+              alt="nextjs icon"
+            />
+          </Tooltip>
+          <Tooltip title="PostgreSQL">
+            <img
+              className={styles.techicon}
+              src="/img/Postgres.png"
+              alt="postgres icon"
+            />
+          </Tooltip>
+          <Tooltip title="MySQL">
+            <img
+              className={styles.techicon}
+              src="/img/MySQL.png"
+              alt="mysql icon"
+            />
+          </Tooltip>
+        </div>
       </div>
       <div className={styles.experience}>
         <h2 className={styles.techstacks}>
@@ -130,40 +152,64 @@ export default function Home() {
           </u>{" "}
           👍🏻
         </h2>
-        {/* <div className={styles.techContainer}>
-          <img
-            className={styles.techicon}
-            src="/img/jquery.png"
-            alt="jquery icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/mongodb.png"
-            alt="mongodb icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/graphql.png"
-            alt="graphql icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/jest.png"
-            alt="jest icon"
-          />
-          <img
-            className={styles.techicon}
-            src="/img/mochajs.png"
-            alt="mochajs icon"
-          />
-          <img className={styles.techicon} src="/img/aws.png" alt="aws icon" />
-          <img className={styles.techicon} src="/img/git.png" alt="git icon" />
-          <img
-            className={styles.techicon}
-            src="/img/figma.png"
-            alt="figma icon"
-          />
-        </div> */}
+        <div className={styles.techContainer}>
+          <Tooltip title="jQuery">
+            <img
+              className={styles.techicon}
+              src="/img/JQuery.png"
+              alt="jquery icon"
+            />
+          </Tooltip>
+          <Tooltip title="MongoDB">
+            <img
+              className={styles.techicon}
+              src="/img/MongoDB.png"
+              alt="mongodb icon"
+            />
+          </Tooltip>
+          <Tooltip title="GraphQL">
+            <img
+              className={styles.techicon}
+              src="/img/Graphql.png"
+              alt="graphql icon"
+            />
+          </Tooltip>
+          <Tooltip title="Jest">
+            <img
+              className={styles.techicon}
+              src="/img/Jest.png"
+              alt="jest icon"
+            />
+          </Tooltip>
+          <Tooltip title="Mocha">
+            <img
+              className={styles.techicon}
+              src="/img/Mochajs.png"
+              alt="mochajs icon"
+            />
+          </Tooltip>
+          <Tooltip title="AWS">
+            <img
+              className={styles.techicon}
+              src="/img/Aws.png"
+              alt="aws icon"
+            />
+          </Tooltip>
+          <Tooltip title="Git">
+            <img
+              className={styles.techicon}
+              src="/img/Git.png"
+              alt="git icon"
+            />
+          </Tooltip>
+          <Tooltip title="Figma">
+            <img
+              className={styles.techicon}
+              src="/img/Figma.png"
+              alt="figma icon"
+            />
+          </Tooltip>
+        </div>
       </div>
       <div className={styles.featured}>
         <h2 className={styles.featuredApps}>
