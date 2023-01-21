@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navigation from "./Navigation";
+import CopyRight from "./CopyRight";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Layout = ({ children }) => {
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
       </div>
+      <CopyRight />
     </>
   );
 };

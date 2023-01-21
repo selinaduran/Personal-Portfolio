@@ -1,0 +1,9 @@
+.copyRightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  width: 100%;
+  color: #7bf1a8;
+  font-size: larger;
+}
