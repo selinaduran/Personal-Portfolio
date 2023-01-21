@@ -1,13 +1,22 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/Portfolio.module.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Portfolio = () => {
   return (
     <div className={styles.portfolioContainer}>
       <div className={styles.projectContainer}>
-        <h2 className={styles.appTitle}>Duguid Construction</h2>
-        <div>
-          <img src="/img/DuguidDemo.gif" />
+        <div className={styles.headerContainer}>
+          <h2 className={styles.appTitle}>Duguid Construction</h2>
+          <a
+            href="https://github.com/RFC2207-Khazad-Dum/DuguidConstruction"
+            target="_blank"
+          >
+            <GitHubIcon className={styles.githubLink} fontSize="large" />
+          </a>
+        </div>
+        <div className={styles.gifContainer}>
+          <img src="/img/DuguidDemo.gif" className={styles.gifVideo} />
         </div>
         <p className={styles.appInfo}>
           Duguid Construction is a full-stack application that I created
@@ -22,9 +31,14 @@ const Portfolio = () => {
         </p>
       </div>
       <div className={styles.projectContainer}>
-        <h2 className={styles.appTitle}>Animal Crossing Memory Match!</h2>
-        <div>
-          <img src="/img/AnimalCrossingDemo1.gif" />
+        <div className={styles.headerContainer}>
+          <h2 className={styles.appTitle}>Animal Crossing Memory Match!</h2>
+          <a href="https://github.com/selinaduran/MVP-Project" target="_blank">
+            <GitHubIcon className={styles.githubLink} fontSize="large" />
+          </a>
+        </div>
+        <div className={styles.gifContainer}>
+          <img src="/img/AnimalCrossingDemo1.gif" className={styles.gifVideo} />
         </div>
         <p className={styles.appInfo}>
           This is a MVP (Minimum Viable Product) project I completed as a
@@ -45,8 +59,15 @@ const Portfolio = () => {
         </p>
       </div>
       <div className={styles.projectContainer}>
-        <h2 className={styles.appTitle}>Front End Capstone (Royale)</h2>
-        <div>Application Snippet goes here</div>
+        <div className={styles.headerContainer}>
+          <h2 className={styles.appTitle}>Front End Capstone (Royale)</h2>
+          <a href="https://github.com/Team-Xbox/xbox-fec" target="_blank">
+            <GitHubIcon className={styles.githubLink} fontSize="large" />
+          </a>
+        </div>
+        <div className={styles.gifContainer}>
+          <img src="/img/RoyaleQuestionsDemo.gif" className={styles.gifVideo} />
+        </div>
         <p className={styles.appInfo}>
           Royale is an eCommerce application where my team and I focused on
           increasing user-interactivity with updated website and accessibility
@@ -61,8 +82,18 @@ const Portfolio = () => {
         </p>
       </div>
       <div className={styles.projectContainer}>
-        <h2 className={styles.appTitle}>System Design Capstone</h2>
-        <div>Application Snippet goes here</div>
+        <div className={styles.headerContainer}>
+          <h2 className={styles.appTitle}>System Design Capstone</h2>
+          <a
+            href="https://github.com/selinaduran/SDC-Mace-Windu"
+            target="_blank"
+          >
+            <GitHubIcon className={styles.githubLink} fontSize="large" />
+          </a>
+        </div>
+        <div className={styles.gifContainer}>
+          <img src="/img/SDCQuestions.png" className={styles.appPic} />
+        </div>
         <p className={styles.appInfo}>
           System Design Capstone is an application where the backend was
           entirely rebuilt with a new database and server. I was in charge of

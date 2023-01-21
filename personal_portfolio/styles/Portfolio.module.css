@@ -3,13 +3,23 @@
   flex-direction: column;
   align-items: center;
   background-color: #594157;
-  border: 2px solid black;
-  margin: 25px 100px 25px 100px;
+  margin: 25px;
 }
 
 .projectContainer {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  width: 75%;
+  margin-bottom: 15px;
 }
 
 .appTitle {
@@ -19,6 +29,39 @@
   text-underline-offset: 7px;
 }
 
+.githubLink {
+  color: #ffd6e0;
+  font-size: 32px;
+}
+
+.githubLink:hover {
+  color: #7bf1a8;
+  cursor: pointer;
+}
+
+.gifContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gifVideo {
+  border: 2px solid #726da8;
+  width: 604px;
+  height: 307px;
+}
+
+.appPic {
+  border: 2px solid #726da8;
+  width: 500px;
+  height: 400px;
+}
+
 .appInfo {
+  align-self: center;
+  width: 75%;
+  margin-top: 16px;
+  margin-bottom: 25px;
   color: #bee7e8;
+  font-size: larger;
 }
