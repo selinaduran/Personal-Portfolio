@@ -22,12 +22,13 @@ const Portfolio = () => {
           Duguid Construction is a full-stack application that I created
           alongside five other software engineers. This particular web
           application allows various types of users (clients or employees) to
-          access a construction company website. I was responsible for
-          engineering the company's "Home-Page" and "Reviews" components using
-          Next.js and React, focusing on ease of use and accessibility for both
-          clients and employees of the company. I was also assigned as Product
-          Manager for this particular team and oversaw ticket/git workflow while
-          consulting with the client-company for project specifications.
+          access a construction company website. I was responsible for the
+          majority of the website's front-end where I engineered the company's
+          "Home-Page" and "Reviews" components using Next.js and React, focusing
+          on ease of use and accessibility for both clients and employees of the
+          company. I also worked as Product Manager for this particular team and
+          oversaw ticket/git workflow while consulting with the client-company
+          for application specifications.
         </p>
       </div>
       <div className={styles.projectContainer}>
@@ -46,11 +47,11 @@ const Portfolio = () => {
           full-stack application of our choosing. This particular application
           allows users to play with a shuffled memory-match board that consists
           of randomly selected Animal Crossing villager cards (characters are
-          specifically from Nintendo's "New Horizons" video game). While users
-          select cards to match, the application includes a counter to keep
-          track of players' number of attempts. Extended features to the game
-          were also recently added to allow users to see character profiles for
-          each matched villager in order to learn more about their personal
+          specifically based from Nintendo's "New Horizons" video game). While
+          users select cards to match, the application includes a counter to
+          keep track of players' number of attempts. Extended features to the
+          game were also recently added to allow users to see character profiles
+          for each matched villager in order to learn more about their personal
           traits and characteristics. React was utilized for creating frontend
           features while PostgreSQL was implemented for managing/storing scores
           users can submit upon completing a game round. Villager cards and

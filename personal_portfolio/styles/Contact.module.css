@@ -16,6 +16,12 @@
   margin-top: 25px;
 }
 
+.email {
+  text-decoration: underline;
+  text-decoration-color: #726da8;
+  text-underline-offset: 7px;
+}
+
 .sitelink,
 .sitelink:visited {
   color: #bee7e8;

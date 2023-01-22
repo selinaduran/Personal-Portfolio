@@ -217,7 +217,10 @@ export default function Home() {
         </h2>
         <div className={styles.appContainer}>
           <div className={styles.showCaseApp}>
-            <img src="/img/AnimalCrossingDemo2.gif" />
+            <img
+              src="/img/AnimalCrossingDemo2.gif"
+              className={styles.gifVideo}
+            />
           </div>
           <div className={styles.infoApp}>
             <div className={styles.titleContainer}>
@@ -243,6 +246,34 @@ export default function Home() {
               managing/storing scores users can submit upon completing a game
               round. Villager cards and profile information were obtained and
               sourced from an external API (http://acnhapi.com/).
+            </p>
+          </div>
+        </div>
+        <div className={styles.appContainer}>
+          <div className={styles.showCaseApp}>
+            <img src="/img/DuguidDemo.gif" className={styles.gifVideo} />
+          </div>
+          <div className={styles.infoApp}>
+            <div className={styles.titleContainer}>
+              <h3 className={styles.appTitle}>Duguid Construction</h3>
+              <a
+                href="https://github.com/RFC2207-Khazad-Dum/DuguidConstruction"
+                target="_blank"
+              >
+                <GitHubIcon className={styles.githubLink} fontSize="large" />
+              </a>
+            </div>
+            <p className={styles.appInformation}>
+              Duguid Construction is a full-stack application that I created
+              alongside five other software engineers. This particular web
+              application allows various types of users (clients or employees)
+              to access a construction company website. I was responsible for
+              the majority of the website's front-end where I engineered the
+              company's "Home-Page" and "Reviews" components using Next.js and
+              React, focusing on ease of use and accessibility for both clients
+              and employees of the company. I also worked as Product Manager for
+              this particular team and oversaw ticket/git workflow while
+              consulting with the client-company for application specifications.
             </p>
           </div>
         </div>

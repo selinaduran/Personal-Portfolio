@@ -14,7 +14,8 @@ const Contact = () => {
       </Head>
       <h1 className={styles.hiring}>Interested in hiring me for your team?</h1>
       <h2 className={styles.connect}>
-        You can contact me at <em>selinad177@gmail.com</em>
+        You can contact me at{" "}
+        <em className={styles.email}>selinad177@gmail.com</em>
       </h2>
       <h2 className={styles.connect}>
         You can also connect with me through the following social sites below.
