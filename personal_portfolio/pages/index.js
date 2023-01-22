@@ -52,16 +52,22 @@ export default function Home() {
             <u className={styles.textEffect}>About Me</u> 👩🏻‍💻
           </h2>
           <p className={styles.aboutInfo}>
-            Hello! I am a former educator and school psychologist who eventually
-            switched over to tech! I am currently a full-stack software engineer
-            who enjoys learning new programming languages, creating optimal user
-            interfaces within frontend applications, and handling databases to
-            produce well-balanced applications. I thrive in environments where
-            there are opportunities for team collaboration, problem-solving and
-            professional growth. I would love to join a team to share my
-            experiences with in order to help achieve their company goals. Feel
-            free to reach out if you think I would be a good fit for your team
+            Howdy! I am a former educator and school psychologist from Austin,
+            Texas who eventually switched over to tech! I am currently a
+            software engineer who specializes in frontend/full-stack development
+            and enjoys learning new programming languages, creating optimal user
+            interfaces within web applications, and handling databases to
+            produce well-balanced traffic flow. I thrive in environments where
+            there are opportunities for team collaboration, problem-solving, and
+            continuous learning/professional growth.
           </p>
+          <aside className={styles.aboutInfo}>
+            On my spare time - I enjoy partaking in long-distance running,
+            trying out new baking recipes, and reading books (mostly
+            fantasy-fiction, nonfiction, or novels). This is my 4th year living
+            in Austin, Texas with my fiancé Jeff and currently have three
+            fur-babies (Pam, Louie, and Ducky) who we spoil to the max.
+          </aside>
           <Button
             className={styles.aboutButton}
             variant="contained"
@@ -268,7 +274,7 @@ export default function Home() {
               alongside five other software engineers. This particular web
               application allows various types of users (clients or employees)
               to access a construction company website. I was responsible for
-              the majority of the website's front-end where I engineered the
+              the majority of the website's frontend where I engineered the
               company's "Home-Page" and "Reviews" components using Next.js and
               React, focusing on ease of use and accessibility for both clients
               and employees of the company. I also worked as Product Manager for

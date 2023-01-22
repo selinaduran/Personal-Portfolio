@@ -23,7 +23,7 @@ const Portfolio = () => {
           alongside five other software engineers. This particular web
           application allows various types of users (clients or employees) to
           access a construction company website. I was responsible for the
-          majority of the website's front-end where I engineered the company's
+          majority of the website's frontend where I engineered the company's
           "Home-Page" and "Reviews" components using Next.js and React, focusing
           on ease of use and accessibility for both clients and employees of the
           company. I also worked as Product Manager for this particular team and
@@ -72,7 +72,7 @@ const Portfolio = () => {
         <p className={styles.appInfo}>
           Royale is an eCommerce application where my team and I focused on
           increasing user-interactivity with updated website and accessibility
-          features. I was in charge of architecting the React front-end service
+          features. I was in charge of architecting the React frontend service
           of 'Questions & Answers' for the website in which I was able to
           support it with a RESTful API backend. For the Q&A widget, I added
           user interface features (i.e., a navigation search-bar, loader

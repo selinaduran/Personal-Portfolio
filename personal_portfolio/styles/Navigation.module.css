@@ -13,7 +13,7 @@
 .linksContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 96% !important;
   margin: 21.5px !important;
 }
@@ -22,8 +22,8 @@
   font-weight: bold !important;
   font-size: large !important;
   color: #bee7e8 !important;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .navlink:hover {
