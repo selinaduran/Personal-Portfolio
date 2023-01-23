@@ -217,6 +217,32 @@
   color: #bee7e8;
 }
 
+.moreProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moreProjectsHeader {
+  color: #ffd6e0;
+  margin-bottom: 25px;
+}
+
+.featureButton {
+  border: 2px solid #7d8cc4;
+  width: 200px;
+  height: 40px;
+  background-color: #726da8;
+  color: #bee7e8;
+  margin-bottom: 25px;
+}
+
+.featureButton:hover {
+  border: 2px solid #726da8;
+  background-color: #7d8cc4;
+  color: #7bf1a8;
+}
+
 @media (max-width: 600px) {
   .about,
   .proficient,

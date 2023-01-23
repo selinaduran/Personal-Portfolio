@@ -283,6 +283,20 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className={styles.moreProjectsContainer}>
+          <h3 className={styles.moreProjectsHeader}>
+            Interested in seeing more projects? Click on the "View Portfolio"
+            link below! ⬇️
+          </h3>
+          <Button
+            className={styles.featureButton}
+            variant="contained"
+            startIcon={<ArrowCircleRightIcon />}
+            href="/portfolio"
+          >
+            View Portfolio
+          </Button>
+        </div>
       </div>
     </div>
   );

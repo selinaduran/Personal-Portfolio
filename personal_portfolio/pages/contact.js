@@ -12,13 +12,18 @@ const Contact = () => {
         <title>Selina Duran - Contact</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className={styles.hiring}>Interested in hiring me for your team?</h1>
+      <h1 className={styles.hiring}>
+        <u className={styles.textEffect}>
+          Interested in hiring me for your team?
+        </u>{" "}
+        😀
+      </h1>
       <h2 className={styles.connect}>
         You can contact me at{" "}
         <em className={styles.email}>selinad177@gmail.com</em>
       </h2>
       <h2 className={styles.connect}>
-        You can also connect with me through the following social sites below.
+        You can also connect with me through the following social sites below ⬇️
       </h2>
       <div>
         <a href="https://github.com/selinaduran" target="_blank">

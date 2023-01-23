@@ -8,7 +8,11 @@
 
 .hiring {
   color: #7bf1a8;
-  border-bottom: 4px solid #ffd6e0;
+}
+
+.textEffect {
+  text-decoration-color: #ffd6e0;
+  text-underline-offset: 7px;
 }
 
 .connect {
