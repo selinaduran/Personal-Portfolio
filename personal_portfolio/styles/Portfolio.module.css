@@ -23,9 +23,9 @@
 }
 
 .appTitle {
-  color: #7bf1a8;
+  color: #ffd6e0;
   text-decoration: underline;
-  text-decoration-color: #ffd6e0;
+  text-decoration-color: #726da8;
   text-underline-offset: 7px;
 }
 
@@ -35,8 +35,16 @@
 }
 
 .githubLink:hover {
-  color: #7bf1a8;
+  color: #726da8;
   cursor: pointer;
+}
+
+.technologies {
+  width: 75%;
+  align-self: center;
+  margin-bottom: 16px;
+  font-size: larger;
+  color: #7bf1a8;
 }
 
 .gifContainer {

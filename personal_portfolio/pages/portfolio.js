@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/Portfolio.module.css";
+import Head from "next/head";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Portfolio = () => {
   return (
     <div className={styles.portfolioContainer}>
+      <Head>
+        <title>Selina Duran - Portfolio</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className={styles.projectContainer}>
         <div className={styles.headerContainer}>
           <h2 className={styles.appTitle}>Duguid Construction</h2>
@@ -15,6 +20,11 @@ const Portfolio = () => {
             <GitHubIcon className={styles.githubLink} fontSize="large" />
           </a>
         </div>
+        <p className={styles.technologies}>
+          JavaScript&nbsp; |&nbsp; React.js&nbsp; |&nbsp; Next.js&nbsp; |&nbsp;
+          Node.js&nbsp; |&nbsp; MongoDB&nbsp; |&nbsp; Google Maps&nbsp; |&nbsp;
+          AWS&nbsp; |&nbsp; Cloudinary
+        </p>
         <div className={styles.gifContainer}>
           <img src="/img/DuguidDemo.gif" className={styles.gifVideo} />
         </div>
@@ -38,6 +48,10 @@ const Portfolio = () => {
             <GitHubIcon className={styles.githubLink} fontSize="large" />
           </a>
         </div>
+        <p className={styles.technologies}>
+          JavaScript&nbsp; |&nbsp; React.js&nbsp; |&nbsp; Node.js&nbsp; |&nbsp;
+          PostgreSQL&nbsp; |&nbsp; HTML5&nbsp; |&nbsp; CSS3&nbsp; |&nbsp; AWS
+        </p>
         <div className={styles.gifContainer}>
           <img src="/img/AnimalCrossingDemo1.gif" className={styles.gifVideo} />
         </div>
@@ -66,6 +80,11 @@ const Portfolio = () => {
             <GitHubIcon className={styles.githubLink} fontSize="large" />
           </a>
         </div>
+        <p className={styles.technologies}>
+          JavaScript&nbsp; |&nbsp; React.js&nbsp; |&nbsp; Node.js&nbsp; |&nbsp;
+          HTML5&nbsp; |&nbsp; CSS3&nbsp; |&nbsp; AWS&nbsp; |&nbsp; Jest&nbsp;
+          |&nbsp; Cloudinary
+        </p>
         <div className={styles.gifContainer}>
           <img src="/img/RoyaleQuestionsDemo.gif" className={styles.gifVideo} />
         </div>
@@ -92,6 +111,10 @@ const Portfolio = () => {
             <GitHubIcon className={styles.githubLink} fontSize="large" />
           </a>
         </div>
+        <p className={styles.technologies}>
+          JavaScript&nbsp; |&nbsp; Node.js&nbsp; |&nbsp; PostgreSQL&nbsp;
+          |&nbsp; Jest&nbsp; |&nbsp; AWS&nbsp; |&nbsp; Loader.io
+        </p>
         <div className={styles.gifContainer}>
           <img src="/img/SDCQuestions.png" className={styles.appPic} />
         </div>
