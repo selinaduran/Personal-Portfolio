@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-width: 285px;
+  /* min-width: 285px; */
   background-color: #594157;
 }
 
@@ -243,7 +243,7 @@
   color: #7bf1a8;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .about,
   .proficient,
   .experience,
@@ -251,17 +251,31 @@
     width: 100%;
     flex-direction: column;
   }
-}
+}*/
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    background-color: #594157;
   }
-  .code {
-    background: #111;
+  .profilepic {
+    height: 410px;
+    width: 410px;
+    margin-bottom: 8px;
   }
-  .logo img {
-    filter: invert(1);
+  .titleName {
+    font-size: 65px;
+  }
+  .titleRole {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+  .welcome {
+    text-align: center;
+    font-size: 60px;
+  }
+  .sitelink {
+    font-size: 60px;
+    margin: 0px 25px;
   }
 }
