@@ -118,7 +118,7 @@ const Portfolio = () => {
         <div className={styles.gifContainer}>
           <img src="/img/SDCQuestions.png" className={styles.appPic} />
         </div>
-        <p className={styles.appInfo}>
+        <p className={styles.appInfoLastParagraph}>
           System Design Capstone is an application where the backend was
           entirely rebuilt with a new database and server. I was in charge of
           adding backend extensions for an eCommerce website's Q&A widget and

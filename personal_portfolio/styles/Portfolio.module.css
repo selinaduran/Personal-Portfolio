@@ -75,3 +75,48 @@
   color: #bee7e8;
   font-size: larger;
 }
+
+.appInfoLastParagraph {
+  align-self: center;
+  width: 75%;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  color: #bee7e8;
+  font-size: larger;
+}
+
+@media screen and (max-width: 800px) {
+  .headerContainer {
+    width: 100%;
+  }
+  .technologies {
+    width: 100%;
+  }
+  .gifVideo {
+    margin: 0;
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    min-width: auto;
+  }
+  .appPic {
+    margin: 0;
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    min-width: auto;
+  }
+  .appInfo {
+    width: 100%;
+  }
+  .appInfoLastParagraph {
+    width: 100%;
+  }
+  .appTitle {
+    width: 75%;
+  }
+  .githubLink:first-child {
+    width: 35px;
+    height: auto;
+  }
+}
