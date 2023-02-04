@@ -11,7 +11,7 @@ const Navigation = () => {
     <>
       <Navbar sticky="top" className={styles.coloredNav}>
         <Container className={styles.navContainer}>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" className={styles.navbarBrand}>
             <img alt="" src="/img/SD.png" width="70" height="70" />
           </Navbar.Brand>
         </Container>

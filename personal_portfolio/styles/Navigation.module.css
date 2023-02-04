@@ -1,4 +1,10 @@
+.navbarBrand {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .coloredNav {
+  display: flex;
   background-color: #726da8 !important;
   height: 70px;
   margin: 0px;
@@ -7,14 +13,14 @@
 .navContainer {
   margin: 0px !important;
   padding: 0px !important;
-  width: 4% !important;
+  width: auto !important;
 }
 
 .linksContainer {
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: flex-end;
-  width: 96% !important;
   margin: 21.5px !important;
 }
 
@@ -22,8 +28,7 @@
   font-weight: bold !important;
   font-size: large !important;
   color: #bee7e8 !important;
-  margin-right: 25px;
-  margin-left: 25px;
+  margin: 0 25px;
 }
 
 .navlink:hover {
@@ -31,4 +36,15 @@
   text-decoration-line: underline;
   text-underline-offset: 7px;
   text-decoration-color: #ffd6e0;
+}
+
+@media (max-width: 800px) {
+  .linksContainer {
+    justify-content: space-between;
+    margin: 10px !important;
+  }
+  .navlink {
+    font-size: 17px !important;
+    margin: 0 5px;
+  }
 }

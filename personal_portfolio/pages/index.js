@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
@@ -10,6 +11,21 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import Tooltip from "@mui/material/Tooltip";
 
 export default function Home() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 800);
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 800);
+    };
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -39,6 +55,9 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <h2 className={styles.aboutName}>
+        <u className={styles.textEffect}>About Me</u> 👩🏻‍💻
+      </h2>
       <div className={styles.aboutContainer}>
         <div className={styles.aboutSection1}>
           <img
@@ -48,9 +67,6 @@ export default function Home() {
           />
         </div>
         <div className={styles.aboutSection2}>
-          <h2 className={styles.aboutName}>
-            <u className={styles.textEffect}>About Me</u> 👩🏻‍💻
-          </h2>
           <p className={styles.aboutInfo}>
             Howdy! I am a former educator and school psychologist from Austin,
             Texas who eventually switched over to tech! I am currently a
@@ -61,13 +77,13 @@ export default function Home() {
             there are opportunities for team collaboration, problem-solving, and
             continuous learning/professional growth.
           </p>
-          <aside className={styles.aboutInfo}>
+          <p className={styles.aboutInfo}>
             On my spare time - I enjoy partaking in long-distance running,
             trying out new baking recipes, and reading books (mostly
             fantasy-fiction, nonfiction, or novels). This is my 4th year living
             in Austin, Texas with my fiancé Jeff and currently have three
             fur-babies (Pam, Louie, and Ducky) who we spoil to the max.
-          </aside>
+          </p>
           <Button
             className={styles.aboutButton}
             variant="contained"
@@ -222,22 +238,34 @@ export default function Home() {
           <u className={styles.textEffect}>Featured Applications</u> 🌟
         </h2>
         <div className={styles.appContainer}>
-          <div className={styles.showCaseApp}>
-            <img
-              src="/img/AnimalCrossingDemo2.gif"
-              className={styles.gifVideo}
-            />
-          </div>
-          <div className={styles.infoApp}>
+          {isMobile && (
             <div className={styles.titleContainer}>
               <h3 className={styles.appTitle}>Animal Crossing Memory Match!</h3>
               <a
                 href="https://github.com/selinaduran/MVP-Project"
                 target="_blank"
+                className={styles.githubContainer}
               >
                 <GitHubIcon className={styles.githubLink} fontSize="large" />
               </a>
             </div>
+          )}
+          <img src="/img/AnimalCrossingDemo2.gif" className={styles.gifVideo} />
+          <div className={styles.infoApp}>
+            {!isMobile && (
+              <div className={styles.titleContainer}>
+                <h3 className={styles.appTitle}>
+                  Animal Crossing Memory Match!
+                </h3>
+                <a
+                  href="https://github.com/selinaduran/MVP-Project"
+                  target="_blank"
+                >
+                  <GitHubIcon className={styles.githubLink} fontSize="large" />
+                </a>
+              </div>
+            )}
+
             <p className={styles.appInformation}>
               Animal Crossing Memory Match! allows users to play with a shuffled
               memory-match board that consists of randomly selected Animal
@@ -256,10 +284,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.appContainer}>
-          <div className={styles.showCaseApp}>
-            <img src="/img/DuguidDemo.gif" className={styles.gifVideo} />
-          </div>
-          <div className={styles.infoApp}>
+          {isMobile && (
             <div className={styles.titleContainer}>
               <h3 className={styles.appTitle}>Duguid Construction</h3>
               <a
@@ -269,6 +294,20 @@ export default function Home() {
                 <GitHubIcon className={styles.githubLink} fontSize="large" />
               </a>
             </div>
+          )}
+          <img src="/img/DuguidDemo.gif" className={styles.gifVideo} />
+          <div className={styles.infoApp}>
+            {!isMobile && (
+              <div className={styles.titleContainer}>
+                <h3 className={styles.appTitle}>Duguid Construction</h3>
+                <a
+                  href="https://github.com/RFC2207-Khazad-Dum/DuguidConstruction"
+                  target="_blank"
+                >
+                  <GitHubIcon className={styles.githubLink} fontSize="large" />
+                </a>
+              </div>
+            )}
             <p className={styles.appInformation}>
               Duguid Construction is a full-stack application that I created
               alongside five other software engineers. This particular web
