@@ -68,21 +68,21 @@ export default function Home() {
         </div>
         <div className={styles.aboutSection2}>
           <p className={styles.aboutInfo}>
-            Howdy! I am a former educator and school psychologist from Austin,
-            Texas who eventually switched over to tech! I am currently a
+            Howdy! 🤠 I am a former educator and school psychologist from
+            Austin, Texas who eventually switched over to tech! I am currently a
             software engineer who specializes in frontend/full-stack development
             and enjoys learning new programming languages, creating optimal user
             interfaces within web applications, and handling databases to
             produce well-balanced traffic flow. I thrive in environments where
             there are opportunities for team collaboration, problem-solving, and
-            continuous learning/professional growth.
+            continuous learning/professional growth. 📚
           </p>
           <p className={styles.aboutInfo}>
             On my spare time - I enjoy partaking in long-distance running,
             trying out new baking recipes, and reading books (mostly
             fantasy-fiction, nonfiction, or novels). This is my 4th year living
             in Austin, Texas with my fiancé Jeff and currently have three
-            fur-babies (Pam, Louie, and Ducky) who we spoil to the max.
+            fur-babies (Pam 🐱, Louie 🐱, and Ducky 🐶) who we spoil to the max.
           </p>
           <Button
             className={styles.aboutButton}
