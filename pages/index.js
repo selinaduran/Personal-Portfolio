@@ -41,16 +41,28 @@ export default function Home() {
           alt="profile pic"
         />
         <h2 className={styles.welcome}>
-          Hi there! 🙋🏻‍♀️ I'm Selina. Welcome to my personal website!
+          {`Hi there! 🙋🏻‍♀️ I'm Selina. Welcome to my personal website!`}
         </h2>
         <div className={styles.sitelinks}>
-          <a href="https://github.com/selinaduran" target="_blank">
+          <a
+            href="https://github.com/selinaduran"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHubIcon className={styles.sitelink} fontSize="large" />
           </a>
-          <a href="https://www.linkedin.com/in/selina-duran/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/selina-duran/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon className={styles.sitelink} fontSize="large" />
           </a>
-          <a href="https://www.facebook.com/selina.duran.92/" target="_blank">
+          <a
+            href="https://www.facebook.com/selina.duran.92/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FacebookIcon className={styles.sitelink} fontSize="large" />
           </a>
         </div>
@@ -68,21 +80,21 @@ export default function Home() {
         </div>
         <div className={styles.aboutSection2}>
           <p className={styles.aboutInfo}>
-            Howdy! 🤠 I am a former educator and school psychologist from
+            {`Howdy! 🤠 I am a former educator and school psychologist from
             Austin, Texas who eventually switched over to tech! I am currently a
             software engineer who specializes in frontend/full-stack development
             and enjoys learning new programming languages, creating optimal user
             interfaces within web applications, and handling databases to
             produce well-balanced traffic flow. I thrive in environments where
             there are opportunities for team collaboration, problem-solving, and
-            continuous learning/professional growth. 📚
+            continuous learning/professional growth. 📚`}
           </p>
           <p className={styles.aboutInfo}>
-            On my spare time - I enjoy partaking in long-distance running,
+            {`On my spare time - I enjoy partaking in long-distance running,
             trying out new baking recipes, and reading books (mostly
             fantasy-fiction, nonfiction, or novels). This is my 4th year living
             in Austin, Texas with my fiancé Jeff and currently have three
-            fur-babies (Pam 🐱, Louie 🐱, and Ducky 🐶) who we spoil to the max.
+            fur-babies (Pam 🐱, Louie 🐱, and Ducky 🐶) who we spoil to the max.`}
           </p>
           <Button
             className={styles.aboutButton}
@@ -98,6 +110,7 @@ export default function Home() {
             startIcon={<DescriptionIcon />}
             href="https://drive.google.com/file/d/1DzduEO64GIniYePo-nc0ntHqmrKEO4K9/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             View Resume
           </Button>
@@ -244,6 +257,7 @@ export default function Home() {
               <a
                 href="https://github.com/selinaduran/MVP-Project"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.githubContainer}
               >
                 <GitHubIcon className={styles.githubLink} fontSize="large" />
@@ -260,6 +274,7 @@ export default function Home() {
                 <a
                   href="https://github.com/selinaduran/MVP-Project"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <GitHubIcon className={styles.githubLink} fontSize="large" />
                 </a>
@@ -267,7 +282,7 @@ export default function Home() {
             )}
 
             <p className={styles.appInformation}>
-              Animal Crossing Memory Match! allows users to play with a shuffled
+              {`Animal Crossing Memory Match! allows users to play with a shuffled
               memory-match board that consists of randomly selected Animal
               Crossing villager cards (characters are specifically from
               Nintendo's "New Horizons" video game). While users select cards to
@@ -279,7 +294,7 @@ export default function Home() {
               frontend features while PostgreSQL was implemented for
               managing/storing scores users can submit upon completing a game
               round. Villager cards and profile information were obtained and
-              sourced from an external API (http://acnhapi.com/).
+              sourced from an external API (http://acnhapi.com/).`}
             </p>
           </div>
         </div>
@@ -290,6 +305,7 @@ export default function Home() {
               <a
                 href="https://github.com/RFC2207-Khazad-Dum/DuguidConstruction"
                 target="_blank"
+                rel="noreferrer"
               >
                 <GitHubIcon className={styles.githubLink} fontSize="large" />
               </a>
@@ -303,13 +319,14 @@ export default function Home() {
                 <a
                   href="https://github.com/RFC2207-Khazad-Dum/DuguidConstruction"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <GitHubIcon className={styles.githubLink} fontSize="large" />
                 </a>
               </div>
             )}
             <p className={styles.appInformation}>
-              Duguid Construction is a full-stack application that I created
+              {`Duguid Construction is a full-stack application that I created
               alongside five other software engineers. This particular web
               application allows various types of users (clients or employees)
               to access a construction company website. I was responsible for
@@ -318,14 +335,14 @@ export default function Home() {
               React, focusing on ease of use and accessibility for both clients
               and employees of the company. I also worked as Product Manager for
               this particular team and oversaw ticket/git workflow while
-              consulting with the client-company for application specifications.
+              consulting with the client-company for application specifications.`}
             </p>
           </div>
         </div>
         <div className={styles.moreProjectsContainer}>
           <h3 className={styles.moreProjectsHeader}>
-            Interested in seeing more projects? Click on the "View Portfolio"
-            link below! ⬇️
+            {`Interested in seeing more projects? Click on the "View Portfolio"
+            link below! ⬇️`}
           </h3>
           <Button
             className={styles.featureButton}

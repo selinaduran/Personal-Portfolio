@@ -25,6 +25,7 @@ const Navigation = () => {
           <Nav.Link
             href="https://drive.google.com/file/d/1DzduEO64GIniYePo-nc0ntHqmrKEO4K9/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
             className={styles.navlink}
           >
             Resume

@@ -26,13 +26,25 @@ const Contact = () => {
         You can also connect with me through the following social sites below ⬇️
       </h2>
       <div>
-        <a href="https://github.com/selinaduran" target="_blank">
+        <a
+          href="https://github.com/selinaduran"
+          target="_blank"
+          rel="noreferrer"
+        >
           <GitHubIcon className={styles.sitelink} fontSize="large" />
         </a>
-        <a href="https://www.linkedin.com/in/selina-duran/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/selina-duran/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <LinkedInIcon className={styles.sitelink} fontSize="large" />
         </a>
-        <a href="https://www.facebook.com/selina.duran.92/" target="_blank">
+        <a
+          href="https://www.facebook.com/selina.duran.92/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FacebookIcon className={styles.sitelink} fontSize="large" />
         </a>
       </div>
