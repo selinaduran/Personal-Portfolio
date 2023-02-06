@@ -98,7 +98,7 @@
   font-size: larger;
 }
 
-.aboutButton {
+.aboutButton.aboutButton {
   border: 2px solid #7d8cc4;
   width: 200px;
   height: 40px;
@@ -107,7 +107,7 @@
   color: #bee7e8;
 }
 
-.aboutButton:hover {
+.aboutButton:hover.aboutButton:hover {
   border: 2px solid #726da8;
   background-color: #7d8cc4;
   color: #7bf1a8;
@@ -225,7 +225,7 @@
   margin-bottom: 25px;
 }
 
-.featureButton {
+.featureButton.featureButton {
   border: 2px solid #7d8cc4;
   width: 200px;
   height: 40px;
@@ -234,7 +234,7 @@
   margin-bottom: 25px;
 }
 
-.featureButton:hover {
+.featureButton:hover.featureButton:hover {
   border: 2px solid #726da8;
   background-color: #7d8cc4;
   color: #7bf1a8;
